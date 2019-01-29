@@ -6,5 +6,6 @@
 **Exersise #3:** 3-listfiles - It displays current directory contents in a long format.
 **Exersise #4:** 4-listmorefiles - It displays current directory contents, including hidden files using the long format.
 **Exersise #5:** 5-listfilesdigitonly - It displays current directory contents.
-**Exersise #6:** 
+**Exersise #6:** 6-firstdirectory - It creates a directory named holberton in the /tmp/ directory.
+**Exersise #7:**  
  
