@@ -9,5 +9,11 @@
 **Exersise #6:** 6-firstdirectory - It creates a directory named holberton in the /tmp/ directory.
 **Exersise #7:** 7-movethatfile - It moves the file betty from /tmp/ to /tmp/holberton.
 **Exersise #8:** 8-firstdelete - It deletes the file betty.
-**Exersise #9:**  
- 
+**Exersise #9:** 9-firstdirdeletion - It deletes the directory holberton that is in the /tmp directory. 
+**Exersise #10:** 
+
+
+
+
+
+
