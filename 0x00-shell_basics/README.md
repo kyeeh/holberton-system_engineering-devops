@@ -15,7 +15,9 @@
 **Exersise #12:** 12-file_type - It prints the type of the file named iamafile.
 **Exersise #13:** 13-symbolic_link - It creates a symbolic link to /bin/ls, named __ls__. 
 **Exersise #14:** 14-copy_html - It copies all the HTML files from the current working directory to the parent of the working directory, just new versions.  
-**Exersise #15:** 
+**Exersise #15:** 15-lets_move - It moves all files beginning with an uppercase letter to the directory /tmp/u.
+**Exersise #16:** 16-clean_emacs - It deletes all files in the current working directory that end with the character ~.
+**Exersise #17:** 
 
 
 
