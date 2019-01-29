@@ -7,5 +7,6 @@
 **Exersise #4:** 4-listmorefiles - It displays current directory contents, including hidden files using the long format.
 **Exersise #5:** 5-listfilesdigitonly - It displays current directory contents.
 **Exersise #6:** 6-firstdirectory - It creates a directory named holberton in the /tmp/ directory.
-**Exersise #7:**  
+**Exersise #7:** 7-movethatfile - It moves the file betty from /tmp/ to /tmp/holberton.
+**Exersise #8:**  
  
