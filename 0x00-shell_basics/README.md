@@ -12,8 +12,9 @@
 **Exersise #9:** 9-firstdirdeletion - It deletes the directory holberton that is in the /tmp directory. 
 **Exersise #10:** 10-back - It changes the working directory to the previous one.
 **Exersise #11:** 11-lists - It lists all files in the current directory and the parent of the working directory and the /boot directory (in this order), in long format. 
-**Exersise #12:** 
-
+**Exersise #12:** 12-file_type - It prints the type of the file named iamafile.
+**Exersise #13:** 13-symbolic_link - It creates a symbolic link to /bin/ls, named __ls__. 
+**Exersise #14:** 
 
 
 
