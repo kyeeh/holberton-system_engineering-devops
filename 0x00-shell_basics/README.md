@@ -17,7 +17,8 @@
 **Exersise #14:** 14-copy_html - It copies all the HTML files from the current working directory to the parent of the working directory, just new versions.  
 **Exersise #15:** 15-lets_move - It moves all files beginning with an uppercase letter to the directory /tmp/u.
 **Exersise #16:** 16-clean_emacs - It deletes all files in the current working directory that end with the character ~.
-**Exersise #17:** 
+**Exersise #17:** 17-tree - It creates the directories welcome/, welcome/to/ and welcome/to/holberton in the current directory.
+**Exersise #18:** 
 
 
 
