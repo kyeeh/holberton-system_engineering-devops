@@ -5,6 +5,6 @@
 **Exersise #2:** 2-bring_me_home - It changes the working directory to the user’s home directory.
 **Exersise #3:** 3-listfiles - It displays current directory contents in a long format.
 **Exersise #4:** 4-listmorefiles - It displays current directory contents, including hidden files using the long format.
-**Exersise #5:** 
-
+**Exersise #5:** 5-listfilesdigitonly - It displays current directory contents.
+**Exersise #6:** 
  
