@@ -10,7 +10,8 @@
 **Exersise #7:** 7-movethatfile - It moves the file betty from /tmp/ to /tmp/holberton.
 **Exersise #8:** 8-firstdelete - It deletes the file betty.
 **Exersise #9:** 9-firstdirdeletion - It deletes the directory holberton that is in the /tmp directory. 
-**Exersise #10:** 
+**Exersise #10:** 10-back - It changes the working directory to the previous one.
+**Exersise #11:** 
 
 
 
