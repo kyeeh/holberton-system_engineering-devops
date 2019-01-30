@@ -15,7 +15,8 @@ ange_owner_and_group**Task #0:** 0-iam_betty - It changes your user ID to betty.
 **Task #12:** 12-directory_permissions - It creates a directory called dir_holberton with permissions 751 in the working directory.
 **Task #13:** 13-change_group - It changes the group owner to holberton for the file hello.
 **Task #14:** 14-change_owner_and_group - It changes the owner to betty and the group owner to holberton for all the files and directories in the working directory.
-**Task #15:** 
+**Task #15:** 15-symbolic_link_permissions - It changes the owner and the group owner of the file _hello_ to betty and holberton respectively.
+**Task #16:** 
 
  
  
