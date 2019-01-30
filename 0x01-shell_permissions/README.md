@@ -1,6 +1,6 @@
 0x01. Shell, permissions Project
 
-**Task #0:** 0-iam_betty - It changes your user ID to betty.
+ange_owner_and_group**Task #0:** 0-iam_betty - It changes your user ID to betty.
 **Task #1:** 1-who_am_i - It prints the effective userid of the current user.
 **Task #2:** 2-groups - It prints all the groups the current user is part of.
 **Task #3:** 3-new_owner - It changes the owner of the file hello to the user betty.
@@ -14,7 +14,8 @@
 **Task #11:** 11-directories_permissions - It adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
 **Task #12:** 12-directory_permissions - It creates a directory called dir_holberton with permissions 751 in the working directory.
 **Task #13:** 13-change_group - It changes the group owner to holberton for the file hello.
-**Task #14:**  
+**Task #14:** 14-change_owner_and_group - It changes the owner to betty and the group owner to holberton for all the files and directories in the working directory.
+**Task #15:** 
 
  
  
