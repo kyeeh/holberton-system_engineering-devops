@@ -1,6 +1,6 @@
 0x01. Shell, permissions Project
 
-ange_owner_and_group**Task #0:** 0-iam_betty - It changes your user ID to betty.
+**Task #0:** 0-iam_betty - It changes your user ID to betty.
 **Task #1:** 1-who_am_i - It prints the effective userid of the current user.
 **Task #2:** 2-groups - It prints all the groups the current user is part of.
 **Task #3:** 3-new_owner - It changes the owner of the file hello to the user betty.
@@ -16,7 +16,8 @@ ange_owner_and_group**Task #0:** 0-iam_betty - It changes your user ID to betty.
 **Task #13:** 13-change_group - It changes the group owner to holberton for the file hello.
 **Task #14:** 14-change_owner_and_group - It changes the owner to betty and the group owner to holberton for all the files and directories in the working directory.
 **Task #15:** 15-symbolic_link_permissions - It changes the owner and the group owner of the file _hello_ to betty and holberton respectively.
-**Task #16:** 
+**Task #16:** 16-if_only - It changes the owner of the file hello to betty only if it is owned by the user guillaume.
+
 
  
  
