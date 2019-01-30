@@ -6,6 +6,7 @@
 **Task #3:** 3-new_owner - It changes the owner of the file hello to the user betty.
 **Task #4:** 4-empty - It creates an empty file called hello.
 **Task #5:** 5-execute - It adds execute permission to the owner of the file hello.
-**Task #6:** 
+**Task #6:** 6-multiple_permissions - It adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
+**Task #7:** 
 
  
