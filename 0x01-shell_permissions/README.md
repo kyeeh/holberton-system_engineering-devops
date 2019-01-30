@@ -13,7 +13,8 @@
 **Task #10:** 10-mirror_permissions - It sets the mode of the file hello the same as olleh’s mode.
 **Task #11:** 11-directories_permissions - It adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
 **Task #12:** 12-directory_permissions - It creates a directory called dir_holberton with permissions 751 in the working directory.
-**Task #13:** 
+**Task #13:** 13-change_group - It changes the group owner to holberton for the file hello.
+**Task #14:**  
 
  
  
