@@ -1,2 +1,2 @@
 #!/bin/bash
-ll -lt /var | head
+ll -lt . | head -n 10

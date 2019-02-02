@@ -24,4 +24,6 @@
 
 **Task #11:** 11-directories - It counts the number of directories and sub-directories in the current directory.
 
-**Task #12:** 
+**Task #12:** 12-newest_files - It displays the 10 newest files in the current directory.
+
+**Task #13:**  
