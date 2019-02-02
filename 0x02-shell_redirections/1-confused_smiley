@@ -1,2 +1,3 @@
 #!/bin/bash
-echo -e '\U1F615'
+#echo -e "\U1F615"
+echo -e "\xf0\x9f\x98\x95"
