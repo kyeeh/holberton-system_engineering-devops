@@ -26,4 +26,6 @@
 
 **Task #12:** 12-newest_files - It displays the 10 newest files in the current directory.
 
-**Task #13:**  
+**Task #13:** 13-unique - It takes a list of words as input and prints only words that appear exactly once.
+
+**Task #14:** 
