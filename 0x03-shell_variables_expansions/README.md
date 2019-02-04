@@ -22,10 +22,10 @@
 
 **Task #10:** 10-love_exponent_breath - It use pow func for shell variables.
 
-**Task #11:** 11-directories - It counts the number of directories and sub-directories in the current directory.
+**Task #11:** 11-binary_to_decimal - It converts binary to decimal.
 
-**Task #12:** 12-newest_files - It displays the 10 newest files in the current directory.
+**Task #12:** 12-combinations - It creates and filter alphabet sets.
 
-**Task #13:** 13-unique - It takes a list of words as input and prints only words that appear exactly once.
+**Task #13:** 13-print_float - It prints a float with two decimals.
 
-**Task #14:** 
+**Task #14:** 14-decimal_to_hexadecimal - It converts decimal to hexadecimal.
