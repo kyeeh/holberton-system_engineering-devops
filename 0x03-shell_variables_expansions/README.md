@@ -2,7 +2,7 @@
 
 **Task #0:** 0-alias - It creates an alias. 
 
-**Task #1:** 1-confused_smiley - It displays a confused smiley "(Ôo)'.
+**Task #1:** 1-hello_you - It prints hello user, where user is the current Linux user.
 
 **Task #2:** 2-hellofile - It displays the content of the /etc/passwd file.
 
