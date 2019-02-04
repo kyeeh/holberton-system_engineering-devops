@@ -1,10 +1,10 @@
-**0x03. Shell, init files, variables and expansions**
+**PROJECT 0x03. Shell, init files, variables and expansions**
 
 **Task #0:** 0-alias - It creates an alias. 
 
 **Task #1:** 1-hello_you - It prints hello user, where user is the current Linux user.
 
-**Task #2:** 2-hellofile - It displays the content of the /etc/passwd file.
+**Task #2:** 2-path - It adds /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
 
 **Task #3:** 3-twofiles - It displays the content of /etc/passwd and /etc/hosts.
 
