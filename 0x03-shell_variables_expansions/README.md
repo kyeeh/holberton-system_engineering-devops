@@ -10,9 +10,9 @@
 
 **Task #4:** 4-global_variables - It lists environment variables. 
 
-**Task #5:** 
+**Task #5:** 5-local_variables - It lists all local variables and environment variables, and functions. 
 
-**Task #6:** 6-third_line - It displays the third line of the file iacta.
+**Task #6:** 
 
 **Task #7:** 7-file - It creates a file named exactly \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:) containing the text Holberton School ending by a new line.
 
