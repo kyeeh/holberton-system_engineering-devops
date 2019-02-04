@@ -12,11 +12,11 @@
 
 **Task #5:** 5-local_variables - It lists all local variables and environment variables, and functions. 
 
-**Task #6:** 
+**Task #6:** 6-create_local_variable - It creates a new local variable. 
 
-**Task #7:** 7-file - It creates a file named exactly \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:) containing the text Holberton School ending by a new line.
+**Task #7:** 7-create_global_variable - It creates a new global variable.
 
-**Task #8:** 8-cwd_state - It writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it.
+**Task #8:** 
 
 **Task #9:** 9-duplicate_last_line - It duplicates the last line of the file iacta.
 
