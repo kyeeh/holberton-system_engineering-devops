@@ -6,9 +6,9 @@
 
 **Task #2:** 2-path - It adds /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
 
-**Task #3:** 3-twofiles - It displays the content of /etc/passwd and /etc/hosts.
+**Task #3:** 3-paths - It counts the number of directories in the PATH.
 
-**Task #4:** 4-lastlines - It displays the last 10 lines of /etc/passwd.
+**Task #4:** 
 
 **Task #5:** 5-firstlines - It displays the first 10 lines of /etc/passwd.
 
