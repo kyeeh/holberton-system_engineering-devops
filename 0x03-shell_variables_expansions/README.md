@@ -8,9 +8,9 @@
 
 **Task #3:** 3-paths - It counts the number of directories in the PATH.
 
-**Task #4:** 
+**Task #4:** 4-global_variables - It lists environment variables. 
 
-**Task #5:** 5-firstlines - It displays the first 10 lines of /etc/passwd.
+**Task #5:** 
 
 **Task #6:** 6-third_line - It displays the third line of the file iacta.
 
