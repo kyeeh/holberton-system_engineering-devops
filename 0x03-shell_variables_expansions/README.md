@@ -20,7 +20,7 @@
 
 **Task #9:** 9-divide_and_rule - It divides environment variables.
 
-**Task #10:** 10-no_more_js - It deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
+**Task #10:** 10-love_exponent_breath - It use pow func for shell variables.
 
 **Task #11:** 11-directories - It counts the number of directories and sub-directories in the current directory.
 
