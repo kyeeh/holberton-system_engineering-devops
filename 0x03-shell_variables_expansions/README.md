@@ -16,9 +16,9 @@
 
 **Task #7:** 7-create_global_variable - It creates a new global variable.
 
-**Task #8:** 
+**Task #8:** 8-true_knowledge - It prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line. 
 
-**Task #9:** 9-duplicate_last_line - It duplicates the last line of the file iacta.
+**Task #9:**r
 
 **Task #10:** 10-no_more_js - It deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
 
