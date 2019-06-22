@@ -1,5 +1,5 @@
-#!/bin/bash
-# displays Holberton School 10 times.
+#!/usr/bin/env bash
+# This script is displaying "Holberton School" 10 times
 
 for i in {0..9}; do
 	echo "Holberton School"
