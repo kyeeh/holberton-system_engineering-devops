@@ -2,5 +2,6 @@
 # This script is displaying "Holberton School" 10 times
 
 for i in {0..9}; do
+	echo "$i" >> /tmp/tmp.txt
 	echo "Holberton School"
 done
