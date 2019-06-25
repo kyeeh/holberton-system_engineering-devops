@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # displays the PID, along with the process name.
 
-ps | grep bash | cut -d " " -f2,8
+pgrep -l bash
