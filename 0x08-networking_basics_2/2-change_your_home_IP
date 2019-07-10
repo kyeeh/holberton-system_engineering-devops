@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# it changes the following IPs
+cp /etc/hosts ~/hosts.bck
+echo -e '127.0.0.2\tlocalhost' >> ~/hosts.bck
+echo -e '8.8.8.8\tfacebook' >> ~/hosts.bck
+cp -f ~/hosts.bck /etc/hosts
