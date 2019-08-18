@@ -2,4 +2,4 @@
 # Bash script to fix nginx web server faster
 sed -i "s/8080/80/g" /etc/nginx/sites-enabled/default
 service nginx restart
-service nginx stop
+pkill -o nginx
