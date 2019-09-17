@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 # using this REST API, for a given employee ID,
 # returns information about his/her TODO list progress.
-from sys import argv
 from requests import get
+from sys import argv
 
 
 def get_data_api(user_id):
