@@ -7,14 +7,17 @@ from requests import get
 
 def get_data_api(user_id):
     done = []
+    total = 0
     url = "https://jsonplaceholder.typicode.com/users"
     user = get(url + "/{}".format(user_id)).json()
     tasks = get(url + "/{}/todos".format(user_id)).json()
     for task in tasks:
-        if task["completed"] and task["userId"] is user_id:
-            done.append(task.get("title"))
+        if task["userId"] is user_id:
+            total += 1
+            if task["completed"]:
+                done.append(task.get("title"))
     print("Employee {} is done with tasks({}/{}):"
-          .format(user["name"], len(done), len(tasks)))
+          .format(user["name"], len(done), total))
     for task in done:
         print("\t {}".format(task))
 
