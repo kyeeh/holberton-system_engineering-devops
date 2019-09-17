@@ -8,7 +8,6 @@ from sys import argv
 
 
 def api_to_csv(user_id):
-    done = []
     url = "https://jsonplaceholder.typicode.com/"
     user = get(url + "users/{}".format(user_id)).json()
     tasks = get(url + "todos?userId={}".format(user_id)).json()
