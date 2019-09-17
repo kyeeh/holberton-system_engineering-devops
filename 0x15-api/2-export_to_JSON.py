@@ -17,7 +17,7 @@ def api_to_json(user_id):
         tdict["task"] = task.get("title")
         tdict["completed"] = task.get("completed")
         tdict["username"] = user.get("username")
-        task_list.append(tdict)        
+        task_list.append(tdict)
     with open("{}.json".format(user_id), 'w', newline='') as json_file:
         json.dump({argv[1]: task_list}, json_file)
 
