@@ -7,12 +7,11 @@ from requests import get
 
 if __name__ == "__main__":
     done = []
-    user_id = argv[1]
     url = 'https://jsonplaceholder.typicode.com/users'
-    user = get(url + "/{}".format(user_id)).json()
-    tasks = get(url + "/{}/todos".format(user_id)).json()
+    user = get(url + "/{}".format(argv[1])).json()
+    tasks = get(url + "/{}/todos".format(argv[1])).json()
     for task in tasks:
-        if task.get("completed") is True:
+        if task.get("completed"):
             done.append(task.get("title"))
     print('Employee {} is done with tasks({}/{}):'
           .format(user.get('name'), len(done), len(tasks)))
