@@ -11,12 +11,13 @@ def get_data_api(user_id):
     user = get(url + "/{}".format(user_id)).json()
     tasks = get(url + "/{}/todos".format(user_id)).json()
     for task in tasks:
-        if task["completed"]:
+        if task["completed"] and task["userId"] is user_id:
             done.append(task.get("title"))
     print("Employee {} is done with tasks({}/{}):"
           .format(user["name"], len(done), len(tasks)))
     for task in done:
         print("\t {}".format(task))
+
 
 if __name__ == "__main__":
     get_data_api(int(argv[1]))
