@@ -1,19 +1,23 @@
 #!/usr/bin/python3
 # using this REST API, for a given employee ID,
-# returns information about his/her TODO list progress.
-from sys import argv
+# returns information about his/her TODO list progress
+# to export data in the CSV format.
+import csv
 from requests import get
+from sys import argv
 
+
+def api_to_csv(user_id):
+    done = []
+    url = "https://jsonplaceholder.typicode.com/"
+    user = get(url + "users/{}".format(user_id)).json()
+    tasks = get(url + "todos?userId={}".format(user_id)).json()
+    with open("{}.csv".format(user_id), 'w', newline='') as csvfile:
+        file_stream = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
+        for task in tasks:
+            file_stream.writerow([user_id, user.get("username"),
+                                  task.get("completed"),
+                                  task.get("title")])
 
 if __name__ == "__main__":
-    done = []
-    url = "https://jsonplaceholder.typicode.com/users"
-    user = get(url + "/{}".format(argv[1])).json()
-    tasks = get(url + "/{}/todos".format(argv[1])).json()
-    for task in tasks:
-        if task["completed"]:
-            done.append(task.get("title"))
-    print('Employee {} is done with tasks({}/{}):'
-          .format(user.get('name'), len(done), len(tasks)))
-    for task in done:
-        print('\t {}'.format(task))
+    api_to_csv(int(argv[1]))
