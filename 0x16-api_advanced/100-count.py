@@ -16,8 +16,9 @@ def count_words(subreddit, word_list, next="", counters={}):
     if len(counters) == 0:
         for word in word_list:
             counters[word] = 0
-    try:
-        req_data = get(url, headers=headers, allow_redirects=False).json()
+    req = get(url, headers=headers, allow_redirects=False)
+    if req.status_code == 200:
+        req_data = req.json()
         hot_posts = req_data["data"]["children"]
         for post in hot_posts:
             for key in counters:
@@ -32,5 +33,3 @@ def count_words(subreddit, word_list, next="", counters={}):
             for (key, value) in sorted_counters:
                 if value != 0:
                     print('{}: {}'.format(key, value))
-    except HTTPError:
-        return (None)
