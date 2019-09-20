@@ -28,9 +28,9 @@ def count_words(subreddit, word_list, next="", counters={}):
             count_words(subreddit, word_list, next, counters)
         else:
             sorted_counters = sorted(counters.items(
-                ), key=lambda t: (t[1]), reverse=True)
+                ), key=lambda t: (t[1], t[0]), reverse=True)
             for (key, value) in sorted_counters:
                 if value != 0:
                     print('{}: {}'.format(key, value))
     except Exception:
-        print()
+        return (None)
