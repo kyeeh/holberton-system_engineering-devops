@@ -4,7 +4,7 @@ Recursive function that queries the Reddit API, parses the title of all hot
 articles, and prints a sorted count of given keywords (case-insensitive,
 delimited by spaces.
 """
-from requests import get
+from requests import get, HTTPError
 
 
 def count_words(subreddit, word_list, next="", counters={}):
@@ -32,5 +32,5 @@ def count_words(subreddit, word_list, next="", counters={}):
             for (key, value) in sorted_counters:
                 if value != 0:
                     print('{}: {}'.format(key, value))
-    except Exception:
-        return (None)
+    except HTTPError:
+        print()
