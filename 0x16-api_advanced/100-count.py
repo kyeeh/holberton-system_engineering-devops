@@ -27,7 +27,9 @@ def count_words(subreddit, word_list, next="", counters={}):
         if next:
             count_words(subreddit, word_list, next, counters)
         else:
-            for (key, value) in sorted(counters.items()):
+            sorted_counters = sorted(counters.items(
+                ), key=lambda t: (t[1]), reverse=True)
+            for (key, value) in sorted_counters:
                 if value != 0:
                     print('{}: {}'.format(key, value))
     except Exception:
