@@ -33,4 +33,4 @@ def count_words(subreddit, word_list, next="", counters={}):
                 if value != 0:
                     print('{}: {}'.format(key, value))
     except HTTPError:
-        print()
+        return (None)
