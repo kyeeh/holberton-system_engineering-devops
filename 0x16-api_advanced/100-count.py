@@ -14,16 +14,16 @@ def count_words(subreddit, word_list, next="", counters={}):
     headers = {"user-agent": "kyeeh"}
     url = "https://api.reddit.com/r/{}/hot?after={}".format(subreddit, next)
     if len(counters) == 0:
-        word_list = list(set(word_list))
+        #word_list = list(set(word_list))
         for word in word_list:
             counters[word] = 0
     try:
         req_data = get(url, headers=headers, allow_redirects=False).json()
         hot_posts = req_data["data"]["children"]
         for post in hot_posts:
-            for key in counters:
-                counters[key] += post["data"]["title"].lower(
-                    ).split(' ').count(key.lower())
+            for word in word_list:
+                counters[word] += post["data"]["title"].lower(
+                    ).split(' ').count(word.lower())
         next = req_data["data"]["after"]
         if next:
             count_words(subreddit, word_list, next, counters)
