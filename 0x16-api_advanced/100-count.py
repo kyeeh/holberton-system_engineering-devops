@@ -14,7 +14,6 @@ def count_words(subreddit, word_list, next="", counters={}):
     headers = {"user-agent": "kyeeh"}
     url = "https://api.reddit.com/r/{}/hot?after={}".format(subreddit, next)
     if len(counters) == 0:
-        #word_list = list(set(word_list))
         for word in word_list:
             counters[word] = 0
     try:
